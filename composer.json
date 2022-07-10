@@ -1,0 +1,29 @@
+{
+    "name": "joao/notification",
+    "description": "First classroom about composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joao\\Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joaoaf",
+            "email": "joaopauloaferreira23@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+           "Notification\\": "app"  
+        }
+    }
+}
