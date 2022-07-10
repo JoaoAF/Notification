@@ -1,6 +1,7 @@
 <?php
 
-require __DIR__ . '/../libs/autoload.php';
+require __DIR__ . '/../../../autoload.php';
+//Ao manipular a lib, alterar o caminho do autoload
 
 use Notification\Email;
 
