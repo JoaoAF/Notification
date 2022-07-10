@@ -1,11 +1,11 @@
 {
-    "name": "joao/notification",
+    "name": "joaoaf/notification",
     "description": "First classroom about composer",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Joao\\Notification\\": "src/"
+            "Joaoaf\\Notification\\": "src/"
         }
     },
     "authors": [
